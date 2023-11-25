@@ -2,11 +2,13 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Poppins,sans-serif;
 }
+
+                        /* Navigation Bar */
 .navbar{
   padding: 0%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.338);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.652);
 }
 .navbar-brand{
   height: 3em;
@@ -24,10 +26,11 @@
 
 .navbar-nav .nav-item{
   padding: 1em;
-  font-weight: 500;
+  font-weight: bold;
   text-wrap: nowrap;
-  color: black;  
+  color: rgba(0, 0, 0, 0.66);  
 }
+
 .navbar-nav .nav-item:hover{
   background-image: linear-gradient(to right,rgb(21, 21, 135),rgb(211, 26, 41));
   color: white;
@@ -38,8 +41,34 @@
 
 
 
-/* Contact */
+                              /* BPO */
+.bpo h1{
+  font-weight: bold;
+  font-size: 2em;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#0f089f,#e6166a);
+  background-clip: text;
+  padding: 1rem 0;
+}
+.bpo img{
+  width: 100%;
+  height: 100%;
+}
+.bpo p{
+  color: rgba(0, 0, 0, 0.637);
+  text-align: justify;
+}
+.bpo .row{
+  padding: 0% 5%;
+  margin-bottom: 20px;
+}
 
+
+                            /* Contact */
+.contact h1{
+  font-weight: bold;
+  font-size: 2em;
+}
 .form div{
   padding-bottom: 2%;
 }
@@ -58,13 +87,14 @@
   width: 100%;
   height: 500px;
 }
+
+                            /* Info */
 .info .row #img1{
   height: 150px;
   width: 150px;
-  
 }
 .info .row h5{
-  font-weight: 600;
+  font-weight: bold;
   margin-bottom: 15px;
 }
 .info .row #img2 img{
@@ -79,7 +109,7 @@
   margin-bottom: 1em;
 }
 
-/* Footer */
+                            /* Footer */
 footer{
   background-color: black;
   color: antiquewhite;
@@ -89,10 +119,13 @@ footer{
 
 
 
-/* Media queries */
+                             /* Media queries */
 @media screen and (max-width:1200px){
   .contact iframe{
     height: 400px;
+  }
+  .info{
+    padding: 0px 50px;
   }
 }
 
@@ -115,7 +148,6 @@ footer{
     width: 100px;
     margin: 15px 0px;
   }
-  
 }
 
 @media screen and (min-width:1200px){

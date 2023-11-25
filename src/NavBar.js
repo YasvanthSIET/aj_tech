@@ -12,12 +12,12 @@ const NavBar = () => {
             </div>
             <div className="collapse navbar-collapse" id="MyNavbar">
                 <ul className="navbar-nav" >
-                    <Link to={'/'}><li className="nav-item">HOME</li></Link>
-                    <Link to={'/About'}><li className="nav-item">ABOUT</li></Link>
-                    <Link to={'/Dm'}><li className="nav-item">DIGITAL MARKETING</li></Link>
-                    <Link to={'/Ads'}><li className="nav-item">AD'S MAKING</li></Link>
-                    <Link to={'/Bpo'}><li className="nav-item">BPO</li></Link>
-                    <Link to={'/Contact'}><li className="nav-item">CONTACT US</li></Link>
+                    <Link to={'/'}><li className="nav-item"><span>HOME</span></li></Link>
+                    <Link to={'/About'}><li className="nav-item"><span>ABOUT</span></li></Link>
+                    <Link to={'/Dm'}><li className="nav-item"><span>DIGITAL MARKETING</span></li></Link>
+                    <Link to={'/Ads'}><li className="nav-item"><span>AD'S MAKING</span></li></Link>
+                    <Link to={'/Bpo'}><li className="nav-item"><span>BPO</span></li></Link>
+                    <Link to={'/Contact'}><li className="nav-item"><span>CONTACT US</span></li></Link>
                 </ul>
             </div>
         </nav>
