@@ -108,7 +108,11 @@
 .info .row div{
   margin-bottom: 1em;
 }
+.info .detail{
+  color: rgba(0, 0, 0, 0.663);
+  font-style: italic;
 
+}
                             /* Footer */
 footer{
   background-color: black;
