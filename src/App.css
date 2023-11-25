@@ -2,17 +2,18 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar{
-  color: white;
   padding: 0%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.338);
 }
 .navbar-brand{
   height: 3em;
   width: 3em;
 }
 .navbar-toggler{
-  color: white;
+  color: black;
   border: none;
   padding: 5px;
 }
@@ -25,12 +26,55 @@
   padding: 1em;
   font-weight: 500;
   text-wrap: nowrap;
-  color: white;
+  color: black;  
 }
 .navbar-nav .nav-item:hover{
-  background-color: white;
-  color: black;
+  background-image: linear-gradient(to right,rgb(21, 21, 135),rgb(211, 26, 41));
+  color: white;
 }
 .navbar-nav a{
   text-decoration: none;
+}
+
+
+
+/* Contact */
+.row{
+  height: 100%;
+}
+
+.form div{
+  padding-bottom: 15px;
+}
+.form label{
+  font-size: smaller;
+  margin: 0%;
+}
+.form label span{
+  color: red;
+}
+.form input{
+  font-size: smaller;
+}
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media screen and (max-width:768px){
+  .contact{
+    margin-top: 5%;
+  }
+  .contact .row div{
+    margin-top: 3%;
+  }
+  .contact .row img{
+    height: 100%;
+  }
 }

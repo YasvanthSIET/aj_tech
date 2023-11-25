@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return(
-        <nav className="navbar navbar-expand-md bg-dark">
+        <nav className="navbar navbar-expand-md">
             <div className="container-fluid">
                 <img src={logo} alt="logo" className="navbar-brand"/>
                 <FaBars className="navbar-toggler hamburger" data-bs-toggle="collapse" data-bs-target="#MyNavbar"/>  
