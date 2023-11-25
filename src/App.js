@@ -9,6 +9,8 @@ import Dm from './Dm';
 import Ads from './Ads';
 import Bpo from './Bpo';
 import Contact from './Contact';
+import Footer from './Footer';
+import Info from './Info';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Route path='/Bpo' element={<Bpo />}/>
         <Route path='/Contact' element={<Contact />}/>
       </Routes>
+      <Info />
+      <Footer />
     </div>
   );
 }

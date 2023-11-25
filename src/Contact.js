@@ -1,15 +1,16 @@
 import React from "react";
-import contact from './assets/contact.png'
+import contact from './assets/contact.png';
+
 
 const Contact = () => {
     return(
         <div className="contact container-fluid">
             <h1 className="text-center mt-3 text-secondary">Contact Us</h1>
             <div className="row mt-4">
-                <div className="col-md-6 px-5 py-0">
+                <div className="col-md-6 pe-3">
                     <img src={contact} alt="contact" width="100%" height="85%" />
                 </div>
-                <div className="col-md-6 px-5">
+                <div className="col-md-6 ps-3">
                     <form action="" className="form">
                         <div>
                             <label htmlFor="name" className="form-label">Name <span>*</span></label>
@@ -37,6 +38,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4038566.820891077!2d73.30408471326655!3d8.69982038467854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04135e313d5495%3A0xb07b24533e63b70d!2sAJ%20INFOTECK!5e0!3m2!1sen!2sin!4v1700894223120!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="map"></iframe>
         </div>
         
     )
