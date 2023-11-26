@@ -102,6 +102,73 @@
   color: azure;
 }
 
+                      /* AD's Making */
+.ads h1{
+  font-weight: bold;
+  font-size: 2em;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#0f089f,#e6166a);
+  background-clip: text;
+  margin: 20px 0;
+}
+.ads h4{
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#0f089f,#e6166a);
+  background-clip: text;
+}
+.ads .para{
+  margin-top: 20px;
+  text-align: justify;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.781);
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ads .modal p{
+  text-align: justify;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.781);
+  padding: 0px 10px;
+}
+.ads p{
+  text-align: justify;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.781);
+}
+.ads .modal .modal-body::-webkit-scrollbar{
+  width: 5px;
+}
+.ads .modal .modal-body::-webkit-scrollbar-track{
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.ads .modal .modal-body::-webkit-scrollbar-thumb{
+  background: linear-gradient(to bottom,#0f089f,#e6166a);
+  border-radius: 50px;
+}
+.ads .row .col{
+  margin-bottom: 30px;
+}
+.ads .row .content{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.411);
+  border-radius: 10px;
+  padding: 0px 30px 10px;
+}
+.ads .btn{
+  font-weight: bold;
+  background-color: #0f089f;
+  color: azure;
+}
+.ads .btn:hover{
+  background-color: #ee0576;
+  color: azure;
+}
+
+
                               /* BPO */
 .bpo h1{
   font-weight: bold;
