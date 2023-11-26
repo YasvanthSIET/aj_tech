@@ -4,7 +4,7 @@ import contact from './assets/contact.png';
 
 const Contact = () => {
     return(
-        <div className="contact container-fluid">
+        <div className="contact container-fluid px-4">
             <h1 className="text-center mt-3 text-secondary">Contact Us</h1>
             <div className="row mt-4">
                 <div className="col-md-6 pe-3">
