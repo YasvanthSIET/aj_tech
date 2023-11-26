@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import about from './assets/about.jpg';
 import about1 from './assets/about1.jpg';
+import circle from './assets/circle.png'
 import { FaCode, FaCodeMerge, FaExplosion, FaCalendarCheck } from "react-icons/fa6";
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
         <div className="about mt-3 container-fluid">
             <h1 className="text-center">About us</h1>
             <div className="row">
-                <div className="col-md-6 px-5 py-4">
+                <div className="col-md-6 px-4 py-4">
                     <img src={about} alt="img-about" width="100%" height="100%"/>
                 </div>
                 <div className="col-md-6  px-4 py-4">
@@ -19,7 +20,7 @@ const About = () => {
                     <Link to={'/Dm'}><button className="btn">Our Services</button></Link>
                 </div>
             </div>
-            <div className="row mx-1">
+            <div className="row row2 mx-1 my-4">
                 <div className="col-12 col-sm-6 col-md-4">
                     <div className="content">
                         <h3 className="py-3 text-center">Our History</h3>
@@ -39,19 +40,46 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="row mx-1 mt-4">
+            <div className="row mx-1 my-4">
                 <div className="col-12 col-md-6">
                     <h3 className="mb-3">We Are Best</h3>
                     <p>At AJ INFOTECK, we harness our expertise and extensive experience to craft technologies that make a tangible impact on the present and shape a brighter future. Our commitment to excellence, unwavering integrity in fulfilling promises, and ever-expanding reservoir of knowledge form the bedrock of every project we undertake.</p>
-                    <img src={about1} alt="about-img" width="100%" />
                 </div>
-                <div className="col-12 col-md-6">
-                    <FaCode />
-                    <FaCodeMerge />
-                    <FaExplosion />
-                    <FaCalendarCheck />
+                <div className="col-12 col-md-6" id="parent">
+                    <img src={about1} alt="about-img" width="250px" height="250px" id="img"/>
+                    <img src={circle} alt="about-circle" width="380px" height="380px" id="circle"/>
                 </div>
             </div>
+            <div className="row">
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="batch">
+                                <span><FaCode /></span>
+                                <h4>Quality products</h4>
+                                <small>At , our foremost commitment is to deliver secure and top-quality products that cater to all your business needs.</small>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="batch">
+                                <span><FaCodeMerge /></span>
+                                <h4>Innovation</h4>
+                                <small>At AJ INFOTECK, we thrive on embracing innovative approaches to problem-solving, exploring diverse avenues to overcome challenges effectively.</small>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="batch">
+                                <span><FaExplosion /></span>
+                                <h4>Customer Friendly</h4>
+                                <small>At AJ INFOTECK, we take immense pride in our role as a partner, helping customers meet their unique requirements and bring their ideas to life.</small>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="batch">
+                                <span><FaCalendarCheck /></span>
+                                <h4>Timely Delivery</h4>
+                                <small>At AJ INFOTECK, we prioritize the utmost quality, accuracy, and reliability of all our deliverables, ensuring excellence at every step of our processes.</small>
+                            </div>
+                        </div>
+                    </div>
         </div>
     )
 }

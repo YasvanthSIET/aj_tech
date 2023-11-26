@@ -69,13 +69,62 @@
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.411);
   border-radius: 10px;
   padding: 0px 30px 10px;
+  min-height: 320px;
+}
+.about img[alt="img-about"]{
+  border-radius: 15px;
+}
+.about .batch{
+  height: fit-content;
+  border: 1px solid rgba(0, 0, 0, 0.548);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.about span{
+  font-size: 2rem;
+  color: #e6165b;
+}
+.about .batch h4{
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.about .batch small{
+  text-align: justify;
+  font-size: large;
+  line-height: 28px;
+}
+.about .batch{
+  padding: 10px 15px;
+  transition: all 0.5s linear;
+  min-height: 300px;
+}
+.about .batch:hover{
+  transform: translateY(-10%);
+  background: linear-gradient(135deg,#0f089f,#e6166a);
+  color: aqua;
+}
+.about #parent{
+  position: relative;
+  margin: 40px 0px 70px;
+}
+.about #img{
+  margin-left: 25%;
+  margin-top: 3%;
+  border-radius: 50px;
+}
+.about #circle{
+  position: absolute;
+  top: -20%;
+  left: 17%;
+  z-index: -1;
+  animation: rotate 20s linear infinite;
 }
 
-
-
-
-
-
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
 
                       /* Digital Marketing */
 
@@ -323,8 +372,18 @@ footer{
   .modal .modal-dialog{
     margin: 30px;
   }
+  .about .batch{
+    min-height: fit-content;
+  }
+  .about .row .content{
+    min-height: fit-content;
+  }
 }
-
+@media screen and (min-width:768px){
+  .about{
+    padding: 0% 50px;
+  }
+}
 @media screen and (min-width:1200px){
   .info .row #con{
     display: flex;
