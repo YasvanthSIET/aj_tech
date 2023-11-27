@@ -46,8 +46,8 @@ const About = () => {
                     <p>At AJ INFOTECK, we harness our expertise and extensive experience to craft technologies that make a tangible impact on the present and shape a brighter future. Our commitment to excellence, unwavering integrity in fulfilling promises, and ever-expanding reservoir of knowledge form the bedrock of every project we undertake.</p>
                 </div>
                 <div className="col-12 col-md-6" id="parent">
+                    <img src={circle} alt="about-circle" width="300px" height="300px" id="circle" className="m-auto d-block"/>
                     <img src={about1} alt="about-img" width="250px" height="250px" id="img"/>
-                    <img src={circle} alt="about-circle" width="380px" height="380px" id="circle"/>
                 </div>
             </div>
             <div className="row">

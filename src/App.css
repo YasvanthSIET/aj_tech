@@ -106,18 +106,20 @@
 }
 .about #parent{
   position: relative;
-  margin: 40px 0px 70px;
+  overflow: hidden;
+  
+}
+#parent img{
+  display: block;
 }
 .about #img{
-  margin-left: 25%;
-  margin-top: 3%;
-  border-radius: 50px;
-}
-.about #circle{
   position: absolute;
-  top: -20%;
-  left: 17%;
+  top: 10%;
+  left: calc(50% - 125px);
   z-index: -1;
+
+}
+.about #circle{ 
   animation: rotate 20s linear infinite;
 }
 
