@@ -53,21 +53,21 @@ const About = () => {
             <div className="row">
                         <div className="col-12 col-sm-6 col-lg-3">
                             <div className="batch">
-                                <span><FaCode /></span>
+                                <span><FaExplosion /></span>
                                 <h4>Quality products</h4>
                                 <small>At , our foremost commitment is to deliver secure and top-quality products that cater to all your business needs.</small>
                             </div>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <div className="batch">
-                                <span><FaCodeMerge /></span>
+                                <span><FaCode /></span>
                                 <h4>Innovation</h4>
                                 <small>At AJ INFOTECK, we thrive on embracing innovative approaches to problem-solving, exploring diverse avenues to overcome challenges effectively.</small>
                             </div>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <div className="batch">
-                                <span><FaExplosion /></span>
+                                <span><FaCodeMerge /></span>
                                 <h4>Customer Friendly</h4>
                                 <small>At AJ INFOTECK, we take immense pride in our role as a partner, helping customers meet their unique requirements and bring their ideas to life.</small>
                             </div>
@@ -79,7 +79,7 @@ const About = () => {
                                 <small>At AJ INFOTECK, we prioritize the utmost quality, accuracy, and reliability of all our deliverables, ensuring excellence at every step of our processes.</small>
                             </div>
                         </div>
-                    </div>
+            </div>
         </div>
     )
 }

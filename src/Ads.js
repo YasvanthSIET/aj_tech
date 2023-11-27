@@ -10,10 +10,10 @@ const Ads = () => {
     return(
         <div className="ads container-fluid">
             <div className="row mt-3">
-                <div className="col-md-5 p-4">
+                <div className="col-md-5 p-2">
                     <img src={ad} alt="img-0" width="100%" height="100%"/>
                 </div>
-                <div className="col-md-7 px-5">
+                <div className="col-md-7 px-4">
                     <h1>ADVERTISEMENT MAKING AND DESIGNING</h1>
                     <p>Our advertisement-making and designing services seize your audience's attention with captivating stories, transformative visuals, and professional post-production, elevating your brand to new heights. , we offer a wide range of services to enhance your brand.</p>
                     <p>From captivating voice-overs to catchy jingles and eye-catching flex prints, we have the expertise to elevate your business to the potential audience. By understanding your brand and target audience, we will create a concept that aligns with your objectives and resonates with your viewers.</p>
@@ -21,7 +21,7 @@ const Ads = () => {
             </div>
             
             <h1 className="text-center my-4">Our Services</h1>
-            <div className="row mx-4">
+            <div className="row mx-2">
                 <div className="col col-md-6 col-lg-4 text-center">
                     <div className="content">
                         <img src={ad1} alt="img-1" width="200px" height="200px"/>

@@ -32,13 +32,123 @@
 }
 
 .navbar-nav .nav-item:hover{
-  background-image: linear-gradient(to right,rgb(21, 21, 135),rgb(211, 26, 41));
+  background-image: linear-gradient(135deg,rgb(21, 21, 135),rgb(211, 26, 41));
   color: white;
 }
 .navbar-nav a{
   text-decoration: none;
 }
 
+
+                            /* Home */
+.home h3{
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#0f089f,#e6166a);
+  background-clip: text;
+  font-weight: bold;
+}
+.home p{
+  text-align: justify;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.781);
+}
+.home .btn{
+  font-weight: bold;
+  background-color: #0f089f;
+  color: azure;
+}
+.home .btn:hover{
+  background-color: #ee0576;
+  color: azure;
+}
+.home .batch{
+  border: 1px solid rgba(0, 0, 0, 0.548);
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: all 0.5s linear;
+  min-height: 200px;
+}
+.home .batch span{
+  font-size: 2rem;
+  color: #e6165b;
+}
+.home .batch h4{
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.home .batch small{
+  text-align: justify;
+  font-size: large;
+  line-height: 28px;
+}
+.home .batch:hover{
+  transform: translateY(-10%);
+  background: linear-gradient(135deg,#0f089f,#e6166a);
+  color: aqua;
+}
+.home .row .col-12{
+  margin-bottom: 25px;
+}
+.home .badges{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.home .badges div{
+  width: 48%;
+  margin: 1%;
+  border: 1px solid rgba(0, 0, 0, 0.306);
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: all 0.5s linear;
+}
+.home .badges div:hover{
+  transform: translateY(-10%);
+  background: linear-gradient(135deg,#0f089f,#e6166a);
+  color: aqua;
+}
+.home .badges div .icon{
+  margin-right: 10px;
+  color: #990536;
+}
+
+.home .parent{
+  position: relative;
+  overflow: hidden;
+}
+.parent img{
+  display: block;
+}
+.parent1 .img{
+  position: absolute;
+  top: 10%;
+  left: calc(50% - 190px);
+  z-index: -1;
+}
+.parent2 .img{
+  position: absolute;
+  top: 15%;
+  left: calc(50% - 190px);
+  z-index: -1;
+}
+.parent3 .img{
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 190px);
+  z-index: -1;
+}
+.parent4 .img{
+  position: absolute;
+  top: 14%;
+  left: calc(50% - 190px);
+  z-index: -1;
+}
+.home .circle{ 
+  animation: rotate 20s linear infinite;
+}
+.home .batch2{
+  min-height: 270px;
+}
 
                              /* About */
 
@@ -75,13 +185,13 @@
   border-radius: 15px;
 }
 .about .batch{
-  height: fit-content;
   border: 1px solid rgba(0, 0, 0, 0.548);
   border-radius: 5px;
-  padding: 10px;
-  text-align: center;
+  padding: 10px 15px;
+  transition: all 0.5s linear;
+  min-height: 200px;
 }
-.about span{
+.about .batch span{
   font-size: 2rem;
   color: #e6165b;
 }
@@ -93,11 +203,6 @@
   text-align: justify;
   font-size: large;
   line-height: 28px;
-}
-.about .batch{
-  padding: 10px 15px;
-  transition: all 0.5s linear;
-  min-height: 300px;
 }
 .about .batch:hover{
   transform: translateY(-10%);
@@ -348,7 +453,7 @@ footer{
     height: 400px;
   }
   .info{
-    padding: 0px 30px;
+    padding: 0px 20px;
   }
 }
 
@@ -378,6 +483,12 @@ footer{
     min-height: fit-content;
   }
   .about .row .content{
+    min-height: fit-content;
+  }
+  .home .badges div{
+    width: 100%;
+  }
+  .home .batch2{
     min-height: fit-content;
   }
 }

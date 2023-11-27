@@ -6,7 +6,7 @@ import instagram from './assets/instagram.png';
 const Info = () => {
     return(
         <div className="info container-fluid">
-            <div className="row  mt-4">
+            <div className="row mt-4">
                 <div className="col-md-4 col-xl-3" id="con">
                     <img src={logo} alt="logo" id="img1" clas className="img-fluid"/>
                 </div>
