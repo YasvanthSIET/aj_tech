@@ -129,7 +129,7 @@ const Home = () => {
                     <h3>BPO Services</h3>
                     <p className="my-3">Our BPO firm provides a variety of speech process solutions to assist businesses in a variety of industries. We have a staff of highly qualified and experienced individuals who work hard to deliver exceptional customer service, sales support, and other services to our clients. We are your go-to service provider for inbound and outbound call center services. Our cutting-edge technologies and personalized solutions enable us to exceed expectations and assist you in improving the image of your company.</p>
                     <p className="mb-3">Our non-voice process solutions are intended to help you streamline and digitize your business processes. We provide a range of back-office and front-office support services to assist you in reducing costs and optimizing operations. Email support, chat support, social media management, and other non-voice process services are available. We use cutting-edge technology and software to provide high-quality, effective services.</p>
-                    <Link to={'/About'}> <button type="button" className="btn">Learn more</button> </Link>
+                    <Link to={'/Bpo'}> <button type="button" className="btn">Learn more</button> </Link>
                 </div>
             </div>
             <div className="row text-center mt-2">
